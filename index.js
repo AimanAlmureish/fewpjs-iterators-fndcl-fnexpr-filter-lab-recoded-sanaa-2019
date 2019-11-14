@@ -11,7 +11,10 @@ function findMatching(array, string){
 
 
 function fuzzyMatch(){
-  
+   let arr = array.filter(e => {
+    return e.toUpperCase() === string.toUpperCase()
+  })
+  return arr
 }
 
 

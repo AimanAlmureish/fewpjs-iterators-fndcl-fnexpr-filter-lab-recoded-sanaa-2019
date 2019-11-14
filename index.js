@@ -6,7 +6,7 @@ function findMatching(array, string){
    
 
  let arr = array.filter(e => {
-    return e.toUpperCase === string.toUpperCase
+    return e.toUpperCase() === string.toUpperCase()
   })
   return arr
 }

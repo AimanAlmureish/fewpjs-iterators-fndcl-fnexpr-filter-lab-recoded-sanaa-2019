@@ -7,4 +7,5 @@ function findMatching(array, string){
   
     return e === string
   })
+  return arr
 }

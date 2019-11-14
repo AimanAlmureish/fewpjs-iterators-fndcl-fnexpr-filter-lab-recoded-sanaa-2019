@@ -20,7 +20,7 @@ function fuzzyMatch(array, string){
 
 function matchName(array, string){
      let arr = array.filter(e => {
-    return e === string
+    return e.name === string
   })
   return arr
 }

@@ -19,7 +19,10 @@ function fuzzyMatch(array, string){
 
 
 function matchName(){
-  
+     let arr = array.filter(e => {
+    return e.charAt(0) == string.charAt(0)
+  })
+  return arr
 }
 
 

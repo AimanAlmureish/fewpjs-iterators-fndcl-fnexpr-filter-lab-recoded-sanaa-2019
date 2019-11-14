@@ -5,7 +5,7 @@ findMatching(driver)
 function findMatching(array, string){
  let arr = array.filter(e => {
   
-    return e === string
+    return e === "string"
   })
   return arr
 }

@@ -12,7 +12,7 @@ function findMatching(array, string){
 
 function fuzzyMatch(){
    let arr = array.filter(e => {
-    return e.CharAt(0) === string.CharAt(0)
+    return e.CharAt(0) == string.CharAt(0)
   })
   return arr
 }

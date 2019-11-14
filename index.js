@@ -10,7 +10,7 @@ function findMatching(array, string){
 }
 
 
-function fuzzyMatch(){
+function fuzzyMatch(array, string){
    let arr = array.filter(e => {
     return e.charAt(0) == string.charAt(0)
   })

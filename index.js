@@ -3,10 +3,10 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 findMatching(driver)
 function findMatching(array, string){
-    let case = string.toUpperCase()
+   
 
  let arr = array.filter(e => {
-    return e === case
+    return e.toUpperCase === string.toUpperCase
   })
   return arr
 }
